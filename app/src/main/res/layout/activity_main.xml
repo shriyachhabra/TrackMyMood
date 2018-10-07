@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnalyseIBM"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List of Posts"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <ListView
+        android:id="@+id/Posts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+
+
+    <Button
+        android:id="@+id/analyser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Analyse my friend's mood" />
+
+    <TextView
+        android:id="@+id/kindOfSenti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="247dp" />
+    <Button
+        android:layout_marginTop="25dp"
+        android:id="@+id/mes"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Measures"
+        android:visibility="invisible"
+        android:textColor="@android:color/white"
+        />
+    <TextView
+        android:id="@+id/disc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="10dp"
+        android:visibility="invisible"
+        android:text="Click here to see the measures to be taken when in this mood "
+        />
+
+
+</LinearLayout>

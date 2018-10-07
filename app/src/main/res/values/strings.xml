@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Track Your Mood</string>
+    <string name="facebook_app_id">1908638869218607</string>
+    <string name="fb_login_protocol_scheme">fb1908638869218607</string>
+
+
+</resources>
